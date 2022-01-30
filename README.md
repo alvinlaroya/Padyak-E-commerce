@@ -2,4 +2,4 @@
 E-commerce for bikers
 
 
-![alt text](images/1.jpg)
+![alt text](images/index.png)
