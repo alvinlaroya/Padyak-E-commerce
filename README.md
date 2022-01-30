@@ -1,6 +1,5 @@
 # Padyak-E-commerce
-E-commerce for bikers
-
+E-commerce for bikers using HTML, CSS, JS, JQUERY, PHP
 
 ![alt text](images/index.png)
 ![alt text](images/product_page.png)
