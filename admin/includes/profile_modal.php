@@ -38,6 +38,13 @@
                   	</div>
                 </div>
                 <div class="form-group">
+                  	<label for="address" class="col-sm-3 control-label">Address</label>
+
+                  	<div class="col-sm-9">
+                    	<input type="text" class="form-control" id="address" name="address" value="<?php echo $admin['address']; ?>">
+                  	</div>
+                </div>
+                <div class="form-group">
                     <label for="photo" class="col-sm-3 control-label">Photo:</label>
 
                     <div class="col-sm-9">

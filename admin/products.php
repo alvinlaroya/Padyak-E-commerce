@@ -61,7 +61,7 @@
           <div class="box">
             <div class="box-header with-border">
               <?php 
-                if($admin['id'] == 1) {
+                if($admin['type'] == 1) {
                   echo '<a href="#addnew" data-toggle="modal" class="btn btn-primary btn-sm btn-flat" id="addproduct"><i class="fa fa-plus"></i> New</a>';
                 }
               ?>

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 30, 2022 at 11:24 AM
+-- Generation Time: Feb 21, 2022 at 11:57 AM
 -- Server version: 10.4.19-MariaDB
 -- PHP Version: 7.4.19
 
@@ -206,8 +206,9 @@ CREATE TABLE `users` (
 INSERT INTO `users` (`id`, `email`, `password`, `type`, `firstname`, `lastname`, `address`, `contact_info`, `photo`, `status`, `activate_code`, `reset_code`, `created_on`) VALUES
 (1, 'admin@admin.com', '$2y$10$8wY63GX/y9Bq780GBMpxCesV9n1H6WyCqcA2hNy2uhC59hEnOpNaS', 1, 'Padyak', 'System', '', '', 'alvin.jpg', 1, '', '', '2018-05-01'),
 (13, 'alvinreggaelaroya@gmail.com', '$2y$10$y8BUnZSDo6rJKW8l7O.Lee2wGY0swX6SZDU/AIoJNER.BJXeAIv2W', 0, 'Alvin', 'Laroya', '161 San Agustin East Agoo, La Union', '09388566223', 'alvin.jpg', 1, '4VF2ktvuo9As', '5h6IwpqFEyXU43k', '2022-01-27'),
-(14, 'allora@gmail.com', '$2y$10$0b3vi1vQJbECFKJN7gnQCeIhthQ0xX40OofQA5xM7wxiL40.tygoe', 1, 'Allora', 'Alviar', 'San marcos', '09123456789', 'cover2.jpg', 1, 'hmsxiJv2fAoE', '', '2022-01-29'),
-(15, 'regine@gmail.com', '$2y$10$QJIb.lw1V0vwl0HtZkU7LOfw6AOVkXqcctAAui2XMubGdhK5wgqZG', 1, 'Regine', 'Laroya', '', '', '', 1, 'FTrwzKQf1pm5', '', '2022-01-29');
+(14, 'allora@gmail.com', '$2y$10$0b3vi1vQJbECFKJN7gnQCeIhthQ0xX40OofQA5xM7wxiL40.tygoe', 1, 'Allora', 'Alviar', 'San marcoses', '09123456789', 'cover2.jpg', 1, 'hmsxiJv2fAoE', '', '2022-01-29'),
+(15, 'regine@gmail.com', '$2y$10$QJIb.lw1V0vwl0HtZkU7LOfw6AOVkXqcctAAui2XMubGdhK5wgqZG', 1, 'Regine', 'Laroya', '', '', '', 1, 'FTrwzKQf1pm5', '', '2022-01-29'),
+(16, 'ogie@gmail.com', '$2y$10$kevx5oUFmIY3iwb453LoeubOPKs22ddi/WOMvTyHpCgC1pMUxqSQi', 1, 'Ogie', 'Laroya', '', '', '', 1, '3VDdf65thCPO', '', '2022-02-01');
 
 -- --------------------------------------------------------
 
@@ -312,7 +313,7 @@ ALTER TABLE `sales`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 
 --
 -- AUTO_INCREMENT for table `wishlist`
