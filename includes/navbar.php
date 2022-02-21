@@ -48,7 +48,7 @@
                 <li><a href="login.php">Login</a></li>
                 <li><a href="signup.php">Register</a></li>
                 <li><a href="signup_seller.php">Start Selling</a></li>
-                <li><a href="signup.php">Admin Login</a></li>
+                <li><a href="login.php">Admin Login</a></li>
               </ul>
             </li>';
             }
