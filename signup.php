@@ -17,7 +17,7 @@
 <?php include 'includes/navbar.php';?>
   <section class="heading" style="background-color: #1279b8">
     <h1>account</h1>
-    <p> <a href="index.php">home</a> >> login </p>
+    <p> <a href="index.php">home</a> >> Register </p>
   </section>
   <section class="register-form">
     <?php

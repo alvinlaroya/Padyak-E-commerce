@@ -64,7 +64,7 @@
 			            				<span class="input-group-btn">
 			            					<button type="button" id="minus" class="btn btn-default btn-flat btn-lg"><i class="fa fa-minus"></i></button>
 			            				</span>
-							          	<input type="text" name="quantity" id="quantity" class="form-control input-lg" value="1">
+							          	<input type="text" name="quantity" id="quantity" class="form-control input-lg" value="1" style="width: 60px">
 							            <span class="input-group-btn">
 							                <button type="button" id="add" class="btn btn-default btn-flat btn-lg"><i class="fa fa-plus"></i>
 							                </button>
@@ -185,9 +185,11 @@
 </script>
 <script>
 $(function(){
+	var quantity = $('#quantity').val();
+	quantity = 1;
 	$('#add').click(function(e){
 		e.preventDefault();
-		var quantity = $('#quantity').val();
+		
 		var stock = $('#stock').val();
 		var sellerID = $('#seller_id').val();
 
